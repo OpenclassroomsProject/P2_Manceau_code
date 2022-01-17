@@ -1,0 +1,419 @@
+/* =================  DEFAULT ================= */
+h1, h2 , h3, p {
+  margin: 0;
+}
+a:visited{
+  color: black;
+}
+body {
+  margin-top: 0;
+  margin-left: 3.472222222222222%;
+  margin-right: 3.472222222222222%;
+  font-family: "Raleway", sans-serif;
+}
+img{
+  object-fit: cover;
+  width: 100%;
+}
+picture{
+overflow: hidden;
+}
+.rounded_border{
+  border-radius:1.3vw;
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+/* =================  HEADER ================= */
+header div{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* height: 4.652777777777778vw; */
+}
+header img {
+  position: relative;
+  top: 1.388888888888889vw;
+  left: 1.388888888888889vw;
+  height: 3.125vw;
+  width: auto;
+}
+header nav{
+  display: flex;
+}
+header a {
+  padding-top: 3.194444444444444vw;
+  padding-right: 1.736111111111111vw;
+  padding-left: 1.736111111111111vw;
+  font-size: 1.111111111111111vw;
+  border-top:solid 0.138979611690965vw white;
+}
+header a:first-child {
+  color: #0065fc;
+  border-color: #0065fc;
+}
+
+/* =================  SECTION  ================= */
+.search h1{
+  font-size: 2.231237322515213vw ;
+  margin-top: 4.375vw;
+  margin-bottom: 0;
+}
+.search p{
+  font-size: 1.145833333333333vw;
+  margin-bottom: 1.354166666666667vw;
+  margin-top: 0.555555555555556vw;
+  font-weight: 300;
+}
+form {
+  display: flex;
+  height: 3.541666666666667vw;
+  width: 29.166666666666667vw;
+  margin-bottom: 2.152777777777778vw;
+  border-radius:1.3vw;
+  overflow: hidden;
+}
+form i.fas{
+  width: 12.380952380952381%;
+  background: #F2F2F2;
+  font-size: 1.2vw;
+}
+form i.fas::before{
+  color: black;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 35%;
+  left: 35%;
+}
+input{
+  margin: 0;
+  font-size: 1.1vw;
+}
+form input[type=text]{
+  border: solid 1px;
+  border-color: #F2F2F2;
+  width: 15.416666666666667vw;
+  padding-left: 0.694444444444444vw;
+  padding-right: 0;
+
+}
+form input[type=submit]{
+  border: none;
+  background: #0065FC;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  width: 9.305555555555556vw;
+}
+.submit_mobile{
+  display: none;
+}
+
+.filter{
+  /* width:71%; */
+  display: flex;
+  align-items: center;
+  font-size: 1.111111111111111vw;
+  font-weight: bold;
+  /* flex-wrap: wrap; */
+}
+.filter span{
+  margin-right: 10px;
+  margin-left: 9px;
+}
+.filter div{
+  display: flex;
+  align-items: center;
+  height: 3.194444444444444vw;
+  border: solid 0.138888888888889vw rgb(208, 208, 208);
+  margin-left: 25px;
+  padding-right: 25px;
+  /* padding-left: 13px; */
+  border-radius: 2vw;
+}
+.filter div:hover{
+  background: rgb(208, 208, 208);
+  cursor: pointer;
+  color: #0065FC;
+}
+.filter i{
+  position: relative;
+  left: -0.3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DEEBFF;
+  height:3.472222222222222vw;
+  width:3.472222222222222vw;
+  border-radius: 100%;
+  /* margin-right: 0.347222222222222vw; */
+}
+.info .fas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:solid 0.069444444444444vw #F2F2F2;
+  height: 1.527777777777778vw;
+  width: 1.527777777777778vw;
+  border-radius: 30px;
+  margin-right: 10px;
+  
+}
+.info{
+  display: flex;
+  align-items: center;
+  font-size: 1.111111111111111vw;
+  margin-bottom: 2.761194029850746%;
+  margin-top: 2.986%;
+}
+/* =========================  MAIN ============================ */
+main{
+  display: flex;
+  height:43.472222222222222vw;
+}
+/* ===== common rules ======= */
+.background_grey{
+  background: #F2F2F2;
+}
+.hosting{
+  padding: 2.986%;
+  padding-top: 0;
+}
+
+i.fas{
+  color: #0065FC;
+}
+.hosting h2{
+  font-size: 1.597222222222222vw;
+  height: 15.53%;
+  display: flex;
+  align-items: center;
+}
+.list{
+  display: flex;
+  flex-wrap: wrap;
+}
+h3{
+  font-size:1.153846153846154vw;
+}
+main img{
+  height: 100%;
+}
+.list p{
+  font-size: 0.90278vw;
+  font-weight: 300;
+}
+
+span i.fas.empty{
+  color: #F2F2F2;
+}
+.price{
+  font-weight: 500;
+}
+/* ================== HOSTING ================== */
+.hosting:first-child{
+  margin-right: 2.986%;
+  width: 100%;
+}
+.hosting:first-child .list{
+  height: 73.037542662116041%;
+  column-gap: 3.85%;
+  row-gap: 7.1%;
+}
+.card{
+  width: 29.5%;
+  height: 13.125vw;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 1.3vw;
+  border: solid 0.347222222222222vw white;
+  box-shadow: 0px 0px 10px 5px #DCDCDC;
+}
+.card  picture{
+  height:62.962962962962963%;
+  border-radius: 1.3vw 1.3vw 0 0;
+}
+.card .detail{
+  height: 41.005291005291005%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 3.813559322033898%;
+}
+.card .detail h3{
+  margin-top: 0.694444444444444vw;
+}
+.rating_stars{
+  font-size:0.833333333333333vw;
+  padding-bottom: 0.208333333333333vw;
+}
+.more{
+  font-weight: 600;
+  margin-top: 5%;
+  font-size:1.111111111111111vw;
+}
+/* ==================================== POPULAR HOSTING ==================================== */
+.popular.hosting{
+  max-width:calc(31.343283582089552% - 5.747194029850746%);
+  padding-left: 2.761194029850746%;
+}
+.popular.hosting h2{
+justify-content: space-between;
+}
+.popular .fa-chart-line{
+  color: black;
+}
+.popular.hosting .list{
+  height: 84.982935153583618%;
+  align-content: space-between;
+}
+.cardPopular {
+display: flex;
+flex-direction: row;
+height: 9.305555555555556vw;
+width:100%;
+background-color: white;
+border:solid 0.347222222222222vw white;
+box-shadow: 0px 0px 10px 5px #DCDCDC;
+}
+.cardPopular picture{
+width: 39.19%;
+}
+.cardPopular .detail{
+  max-width: calc(61.516034985422741% - 6.006294596737381%);
+  padding-left: 6.006294596737381%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cardPopular h3{
+  padding-top:0.9vw;
+}
+.cardPopular .rating_stars{
+  font-size:0.798611111111111vw;
+  margin-top: 2.083333333333333vw;
+  margin-bottom: 0.625vw;
+}
+/* ==================================== ACTIVITY ==================================== */
+main + h2{
+  font-size: 1.666666666666667vw;
+  margin-top: 4.375vw;
+  margin-bottom: 1.736111111111111vw;
+}
+.activity{
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 65px; */
+  /* margin-bottom: 60.5px; */
+  height: 30.902777777777778vw;
+}
+
+.column{
+  width: 20.972222222222222vw;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.activity h3{
+  box-shadow: 0px 5px 10px 2px #dcdcdc;
+  height: 3.888888888888889vw;
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 1.3vw 1.3vw;
+  padding-left: 1.319444444444444vw;
+
+
+  /* background: grey; */
+}
+.activity picture{
+  border-radius: 1.3vw 1.3vw 0 0;
+}
+.first picture , .third picture{
+  height: 87.415730337078652%;
+}
+
+/* ========== FIRST & THIRD COLUMN  ================ */
+.first img, .third img{
+  height: 114%;
+}
+/* ========== SECOND & LAST COLUMN  ================ */
+.second a , .last a{
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================ SECOND COLUMN ================== */
+/* ======== FIRST ROW ========== */
+.second.column .firstRow{
+  height: 53.033707865168539%;
+  /* background: red; */
+}
+.second.column .firstRow picture{
+  height: 76.271186440677966%;
+}
+.second.column .firstRow img{
+  height: 130%;
+}
+/* ======== SECOND ROW ========== */
+.second.column .secondRow{
+  height: 37.078651685393258%;
+}
+.second.column .secondRow picture{
+  height: 66.060606060606061%;
+}
+.second.column .secondRow img{
+  height: 152%;
+}
+/* ================ LAST COLUMN ================== */
+/* ======== FIRST ROW ========== */
+.last.column .firstRow{
+  height: 43.820224719101124%;
+}
+.last.column .firstRow picture{
+  height: 71.282051282051282%;
+}
+
+/* ======== SECOND ROW ========== */
+.last.column .secondRow{
+  height:46.966292134831461%;
+}
+.last.column picture{
+  height:73.205741626794258%;
+}
+.last.column img{
+  height: 137%;
+}
+
+
+/* ==================================== FOOTER ==================================== */
+footer{
+  margin-top: 4.201388888888889vw;
+  width:71.180555555555556vw;
+  height: 8.194444444444444vw;
+  background: #F2F2F2;
+  position: relative;
+  left: -3.472222222222222vw;
+  padding-top: 3.582089552238806%;
+  padding-left: 3.73134328358209%;
+  padding-right: 27.238805970149254%;
+  padding-bottom: 3.880597014925373%;
+  display: flex;
+  justify-content: space-between;
+}
+footer h4{
+  font-size: 1.25vw;
+  margin-top: 0;
+  margin-bottom: 1.458333333333333vw;
+}
+footer p{
+  padding-bottom: 0.972222222222222vw;
+  font-size:1.111111111111111vw;
+  /* margin-bottom: 14px; */
+}
