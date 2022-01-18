@@ -69,8 +69,6 @@ form input[type=text]{
 }
 button.submit_mobile{
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 13.28125vw;
     height: inherit;
     position: absolute;
