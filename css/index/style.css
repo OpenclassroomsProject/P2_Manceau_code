@@ -77,18 +77,14 @@ form {
   border-radius:1.3vw;
   overflow: hidden;
 }
-form i.fas{
+form .fas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 12.380952380952381%;
   background: #F2F2F2;
   font-size: 1.2vw;
-}
-form i.fas::before{
   color: black;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  top: 35%;
-  left: 35%;
 }
 input{
   margin: 0;
@@ -109,7 +105,7 @@ form input[type=submit]{
   font-weight: 800;
   width: 9.305555555555556vw;
 }
-.submit_mobile{
+button.submit_mobile{
   display: none;
 }
 

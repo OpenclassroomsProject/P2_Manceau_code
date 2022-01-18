@@ -54,21 +54,23 @@ form{
     height: 13.28125vw;
     border-radius: 4vw;
     margin-bottom: 9.448818897637795vw;
-    background: red;
 }
-form i.fas{
+form .fas{
     width: 15.160349854227405%;
     font-size: 4vw;
 }
 form input[type=text]{
     width: 73.032069970845481%;
+    padding-left: 4.427083333333333vw;
     font-size: 5vw;
 }
 .submit_desktop{
     display: none;
 }
-.submit_mobile{
-    display: block;
+button.submit_mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 13.28125vw;
     height: inherit;
     position: absolute;
