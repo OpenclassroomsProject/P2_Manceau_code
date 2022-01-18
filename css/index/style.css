@@ -34,7 +34,6 @@ header div{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  /* height: 4.652777777777778vw; */
 }
 header img {
   position: relative;
@@ -115,12 +114,10 @@ form input[type=submit]{
 }
 
 .filter{
-  /* width:71%; */
   display: flex;
   align-items: center;
   font-size: 1.111111111111111vw;
   font-weight: bold;
-  /* flex-wrap: wrap; */
 }
 .filter span{
   margin-right: 10px;
@@ -133,7 +130,6 @@ form input[type=submit]{
   border: solid 0.138888888888889vw rgb(208, 208, 208);
   margin-left: 25px;
   padding-right: 25px;
-  /* padding-left: 13px; */
   border-radius: 2vw;
 }
 .filter div:hover{
@@ -151,7 +147,6 @@ form input[type=submit]{
   height:3.472222222222222vw;
   width:3.472222222222222vw;
   border-radius: 100%;
-  /* margin-right: 0.347222222222222vw; */
 }
 .info .fas{
   display: flex;
@@ -309,14 +304,11 @@ main + h2{
 .activity{
   display: flex;
   justify-content: space-between;
-  /* margin-top: 65px; */
-  /* margin-bottom: 60.5px; */
   height: 30.902777777777778vw;
 }
 
 .column{
   width: 20.972222222222222vw;
-  /* background-color: pink; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -328,9 +320,6 @@ main + h2{
   align-items: center;
   border-radius: 0 0 1.3vw 1.3vw;
   padding-left: 1.319444444444444vw;
-
-
-  /* background: grey; */
 }
 .activity picture{
   border-radius: 1.3vw 1.3vw 0 0;
@@ -353,7 +342,6 @@ main + h2{
 /* ======== FIRST ROW ========== */
 .second.column .firstRow{
   height: 53.033707865168539%;
-  /* background: red; */
 }
 .second.column .firstRow picture{
   height: 76.271186440677966%;
@@ -390,8 +378,6 @@ main + h2{
 .last.column img{
   height: 137%;
 }
-
-
 /* ==================================== FOOTER ==================================== */
 footer{
   margin-top: 4.201388888888889vw;
@@ -407,13 +393,17 @@ footer{
   display: flex;
   justify-content: space-between;
 }
+footer div{
+  display: flex;
+  flex-direction: column;
+}
+
 footer h4{
   font-size: 1.25vw;
   margin-top: 0;
   margin-bottom: 1.458333333333333vw;
 }
-footer p{
+footer a{
   padding-bottom: 0.972222222222222vw;
   font-size:1.111111111111111vw;
-  /* margin-bottom: 14px; */
 }

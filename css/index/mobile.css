@@ -16,8 +16,8 @@ header div{
 header img{
     height: 13.020833333333333vw;
     left: 39.6484375vw;
-    margin-top: 37.5px;
-    margin-bottom: 37.5px;
+    margin-top: 4.8828125vw;
+    margin-bottom: 4.8828125vw;
 }
 header nav{
     width: 100%;
@@ -50,30 +50,34 @@ nav a{
     margin-bottom: 6vw;
 }
 form{
-    width:89.267015706806283vw;
+    width:100%;
     height: 13.28125vw;
     border-radius: 4vw;
     margin-bottom: 9.448818897637795vw;
+    background: red;
 }
 form i.fas{
-    width: 104px;
+    width: 15.160349854227405%;
     font-size: 4vw;
 }
 form input[type=text]{
-    width: 486px;
+    width: 73.032069970845481%;
     font-size: 5vw;
-}
-form input[type=submit]{
-    width: 102px;
-    position: relative;
-    border-radius: 4vw;
-    right: 18px;
 }
 .submit_desktop{
     display: none;
 }
 .submit_mobile{
     display: block;
+    width: 13.28125vw;
+    height: inherit;
+    position: absolute;
+    border-radius: 4vw;
+    right: 5.46875%;
+    border: none;
+    background: #0065FC;
+    color: rgb(255, 255, 255);
+    font-size: 4vw;
 }
 .filter{
     flex-wrap: wrap;
@@ -110,13 +114,7 @@ form input[type=submit]{
     margin-right: 3.255208333333333vw;
     position: relative;
     top:-2.604166666666667vw;
-
     border:solid 0.260416666666667vw #F0F0F0;
-
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%; */
     aspect-ratio: 1;
 }
 .info .fas::before{
@@ -134,7 +132,6 @@ main{
 }
 h3{
     font-size:4.3vw;
-    /* padding-right:90px; */
 }
 .list p {
     font-size: 4vw;
@@ -146,7 +143,6 @@ h3{
 }
 .popular.hosting{
     max-width: unset;
-    /* width: 89.322916666666667vw; */
     padding-top: 2.604166666666667vw;
     padding-bottom: 9.635416666666667vw;
     margin-bottom: 4.427083333333333vw;
@@ -232,7 +228,7 @@ footer h4{
     font-size: 5vw;
     margin-bottom: 5.46875vw;
 }
-footer p{
+footer a{
     font-size: 4.5vw;
     margin-bottom: 4.6875vw;
 }
